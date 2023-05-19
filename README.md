@@ -5,3 +5,4 @@ formularios  para  criar :
 2- listagem de animes. - Nicolas
 3- votação de anime ( animes mais assistidos)- Marco
 4- listagem de genero. -Nicolas
+.
