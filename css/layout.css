@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+        background-image: url("../imagens/imagem\ principal.jpeg");
+        background-repeat: repeat;
+        background-size: 100%;
+    
+        background-color: white;
+        color: rgb(0, 0, 0);
+
+       
+  /*  font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgb(123, 42, 230);
+    border-image: auto;*/
+}
+
+.principal{
+    margin-top: 2%;
+    padding: 5px 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(223, 191, 11);
+   
+}
+
+.cabecalho{
+    padding: 30px 5px;
+    text-align: center;
+    background-color: gray;
+    font-family: 'Lora', serif;
+}
+
+.cabecalho h1{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    color: rgb(255, 255, 255);
+}
+
+.topnav{
+    
+    overflow: hidden;
+    background-color: rgb(29, 44, 173);
+}
+/*formatando o link do topnav*/
+.topnav a {
+    
+    display:block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: nome;
+}
+.topnav a:hover{
+background-color: white;
+color:rgb(28, 196, 37);
+border: rgb(240, 240, 240) solid 2px;
+box-shadow: rgb(228, 228, 228) 1px 4px;
+border-radius: 10px;
+}
+.top5{
+    padding: 5px 15px;
+    
+    color: rgb(25, 11, 223);
+}
+
+.formatacao{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.card2{
+    margin-top: 3%;
+    color: blueviolet;
+    margin-bottom: 3%;
+   
+}
+
+.card3{
+    margin-top: 5%;
+    color: darkseagreen;
+    margin-bottom: 3%;
+}
+
+
+.buttonav{
+    
+ 
+    overflow: hidden;
+    background-color: rgb(68, 73, 75);
+}
+/*formatando o link do buttonav*/
+.buttonav a {
+    clear: both;
+    display: block;
+    margin-top: 4%;
+    color: rgb(228, 9, 9);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: nome;
+}
+.buttonav a:hover{
+background-color: rgb(195, 204, 71);
+color:rgb(28, 196, 37);
+border: rgb(240, 240, 240) solid 2px;
+box-shadow: rgb(228, 228, 228) 1px 4px;
+border-radius: 10px;
+}
+
+.font2{
+    font-size: 30px;
+}

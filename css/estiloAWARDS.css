@@ -1,0 +1,41 @@
+body{
+    background-image: url("../imagens/imagem\ principal.jpeg");
+    background-repeat: repeat;
+    background-size: 100%;
+
+    background-color: white;
+    color: white; 
+
+    
+}
+
+.formatacao{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.principal{
+    margin-top: 10px;
+    background-color: white;
+    color: black    ;
+   
+}
+
+.card1{
+    font-size: 23px;
+}
+
+.top10{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(171, 148, 231)  ;
+      background-position: center;
+    
+}
+
+.imageCenter{
+    font-size: 30px;
+    
+    text-align: center;
+}
