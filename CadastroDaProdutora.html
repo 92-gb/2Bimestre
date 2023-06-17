@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_br"></html>
+<html>
+<head>
+    <title>Formulário de Registro da Empresa</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+    <link rel="stylesheet" href="css/style.css">
+<body class="ImagemFundo">
+    <form id="myForm">
+        <H1>Cadastro De Produtora</H1>
+        <label for="companyName">Nome da empresa:</label><br>
+        <input type="text" id="companyName" name="companyName" required><br>
+
+        <label for="country">País:</label><br>
+        <input type="text" id="country" name="country" required><br>
+
+        <label for="cnpj">CNPJ:</label><br>
+        <input type="text" id="cnpj" name="cnpj" required><span id="erroCnpj" class="error"></span><br>
+
+        <label for="phone">Telefone:</label><br>
+        <input type="text" id="phone" name="phone" required><span id="erroPhone" class="error"></span><br>
+
+        <label for="email">E-Mail empresarial:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="state">Estado:</label><br>
+        <input type="text" id="state" name="state" required><br>
+
+        <label for="cep">CEP:</label><br>
+        <input type="text" id="cep" name="cep" required><span id="erroCep" class="error"></span><br>
+
+        <label for="date">Data de abertura:</label><br>
+        <input type="date" id="date" name="date" required><br>
+
+        <input type="submit" style="text-align: left; font-size: 20px; padding: 2px 30px; background-color: rgb(99, 233, 117);" value="Enviar">
+
+        <p class="topnav"><a href="index.html" style="float: left ;">Voltar a tela inicial do Site</a></p>
+    </form>
+    
+    <p id="msg" style="text-align: center; font-size: 30px;"></p>    
+    <script src="js/CadastroProdutora.js"></script>
+</body>
+</html>

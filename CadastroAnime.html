@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="pt_br"></html>
 <html>
 <head>
     <title>Formulário de Registro de Anime</title>
@@ -10,7 +11,9 @@
     </style>
 </head>
 <body>
+    
     <form id="myForm">
+        <H1>Cadastro De Anime</H1>
         <label for="nomeJapones">Nome do Anime em Japonês:</label><br>
         <input type="text" id="nomeJapones" name="nomeJapones" required><span id="erroNomeJapones" class="error"></span><br>
         <label for="nomeIngles">Nome do Anime em Inglês:</label><br>
@@ -27,7 +30,7 @@
         <input type="number" id="episodios" name="episodios" required><span id="erroEpisodios" class="error"></span><br>
         <label for="data">Data:</label><br>
         <input type="date" id="data" name="data" required><span id="erroData" class="error"></span><br>
-        <input type="submit" value="Enviar">
+        <input type="submit" style="text-align: left; font-size: 20px; padding: 2px 30px; background-color: rgb(99, 233, 117);" value="Enviar">        
         <p class="topnav"><a href="index.html" style="float: left ;">Voltar a tela inicial do Site</a></p>
     </form>
     <p id="msg" style="text-align: center; font-size: 30px;"></p>
