@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Registro de Anime</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <label for="nomeJapones">Nome do Anime em Japonês:</label><br>
+        <input type="text" id="nomeJapones" name="nomeJapones" required><span id="erroNomeJapones" class="error"></span><br>
+        <label for="nomeIngles">Nome do Anime em Inglês:</label><br>
+        <input type="text" id="nomeIngles" name="nomeIngles" required><span id="erroNomeIngles" class="error"></span><br>
+        <label for="cnpj">CNPJ:</label><br>
+        <input type="text" id="cnpj" name="cnpj" required><span id="erroCnpj" class="error"></span><br>
+        <label for="telefone">Telefone Empresarial:</label><br>
+        <input type="tel" id="telefone" name="telefone" required><span id="erroTelefone" class="error"></span><br>
+        <label for="email">E-Mail Empresarial:</label><br>
+        <input type="email" id="email" name="email" required><span id="erroEmail" class="error"></span><br>
+        <label for="generos">Gêneros:</label><br>
+        <input type="text" id="generos" name="generos" required><span id="erroGeneros" class="error"></span><br>
+        <label for="episodios">Episódios:</label><br>
+        <input type="number" id="episodios" name="episodios" required><span id="erroEpisodios" class="error"></span><br>
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data" required><span id="erroData" class="error"></span><br>
+        <input type="submit" value="Enviar">
+        <p class="topnav"><a href="index.html" style="float: left ;">Voltar a tela inicial do Site</a></p>
+    </form>
+    <p id="msg" style="text-align: center; font-size: 30px;"></p>
+
+    <script src="js/CadastroAnimes.js"></script>
+    
+</body>
+</html>
