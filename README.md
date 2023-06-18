@@ -1,7 +1,8 @@
 # 2Bimestre
 atividade do segundo bimestre 
 formularios  para  criar :
-1- cadastro de login. -Marco 
-2- listagem de animes. - Nicola
-3- votação de anime ( animes mais assistidos)- Marco
-4- listagem de genero. -Nicolas
+1- Escolha de genero do anime. - Marco 
+2- votação de anime ( animes mais assistidos)- Marco
+
+3- Cadastro de Produtora. - Nicolas
+4- Cadastro de Animes. - Nicolas

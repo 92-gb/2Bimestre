@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/StyleVotacao.css">
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .submit-btn {
+            margin-top: 20px;
+            float: left;
+        }
+        #message {
+            clear: both;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<form id="animeForm">
+    <h1>Selecione os Animes que você mais gosta</h1>
+    <div class="row">
+        <div class="column">
+            <label><input type="checkbox" id="hp" name="anime" value="Hells Paradise"> Hells Paradise</label><br>
+            <label><input type="checkbox" id="op" name="anime" value="One piece"> One piece</label><br>
+            <label><input type="checkbox" id="aot" name="anime" value="Atack on Titan"> Atack on Titan</label><br>
+            <label><input type="checkbox" id="sao" name="anime" value="Sword Art Online"> Sword Art Online</label><br>
+            <label><input type="checkbox" id="dbz" name="anime" value="Dragon Ball Z"> Dragon Ball Z</label><br>
+            <label><input type="checkbox" id="hsd" name="anime" value="High School DxD"> High School DxD</label><br>
+        </div>
+        <div class="column">
+            <label><input type="checkbox" id="jk" name="anime" value="Jujutsu Kaisen"> Jujutsu Kaisen</label><br>
+            <label><input type="checkbox" id="hq" name="anime" value="HAIKYU!!"> HAIKYU!!</label><br>
+            <label><input type="checkbox" id="bl" name="anime" value="BLUELOCK"> BLUELOCK</label><br>
+            <label><input type="checkbox" id="m" name="anime" value="Mashle"> Mashle</label><br>
+            <label><input type="checkbox" id="ds" name="anime" value="Dr. Stone"> Dr. Stone</label><br>
+        </div>
+        <button class="topnav"><a href="index.html" style="float: right ; font-size: 16px;">Voltar a tela inicial do Site</a></button>
+    </div>
+    <input type="submit" class="submit-btn" value="Submit">
+
+    
+</form>
+
+<p id="message"></p>
+<script src="js/VotacaoAnimes.js"></script>
+</body>
+</html>
