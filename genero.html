@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/StyleVotacao.css">
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .submit-btn {
+            margin-top: 20px;
+            float: left;
+        }
+        #message {
+            clear: both;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<form id="animeForm">
+    <h1>Selecione seu genero preferido</h1>
+    <div class="row">
+        <div class="column">
+            <label><input type="checkbox" id="hp" name="anime" value="Ação"> Ação</label><br>
+            <label><input type="checkbox" id="op" name="anime" value="Terror"> Terror</label><br>
+            <label><input type="checkbox" id="aot" name="anime" value="Comedia"> Comedia</label><br>
+            <label><input type="checkbox" id="sao" name="anime" value="Aventura"> Aventura</label><br>
+            <label><input type="checkbox" id="dbz" name="anime" value="Drama"> Drama</label><br>
+            <label><input type="checkbox" id="hsd" name="anime" value="Fantasia"> Fantasia</label><br>
+        </div>
+        <div class="column">
+            <label><input type="checkbox" id="jk" name="anime" value="Romance"> Romance</label><br>
+            <label><input type="checkbox" id="hq" name="anime" value="Ficção Cientifica"> ficção-cientifica</label><br>
+            <label><input type="checkbox" id="bl" name="anime" value="Misterio"> Misterio</label><br>
+            <label><input type="checkbox" id="m" name="anime" value="Sobrenatural"> Sobrenatural</label><br>
+            
+        </div>
+        <button class="topnav"><a href="index.html" style="float: right ; font-size: 16px;">Voltar a tela inicial do Site</a></button>
+    </div>
+    <input type="submit" class="submit-btn" value="Submit">
+
+    
+</form>
+
+<p id="message"></p>
+<script src="js/script.js"></script>
+</body>
+</html>
