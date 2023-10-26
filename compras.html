@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Seleção de Produtos</title>
+</head>
+<body>
+    <h1>Selecione os Produtos</h1>
+    <form action="processar_compra.php" method="post">
+
+        
+        <div class="product">
+           
+            <img src="imagens/camiseta masculina01.jpg"  style="width: 10%">
+            <label for="produto1">selecione:</label>
+            <input type="checkbox" name="produtos[]" value="produto1" id="produto1">
+        </div>
+
+        <div class="product">
+            <img src="imagens/camisa masculina.jpg"  style="width: 10%" >
+            <label for="produto2">selecione:</label>
+            <input type="checkbox" name="produtos[]" value="produto2" id="produto2">
+        </div>
+
+        <div class="product">
+            <img src="imagens/camiseta 03.jpg"  style="width: 10%">
+            <label for="produto3">selecione:</label>
+            <input type="checkbox" name="produtos[]" value="produto3" id="produto3">
+        </div>
+
+        <input type="submit" value="Adicionar ao Carrinho">
+        <button class="topnav"><a href="index.html" style="float: right ; font-size: 16px;">Voltar a tela inicial do Site</a></button>
+    </form>
+</body>
+</html>
